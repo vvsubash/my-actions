@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: df
-        run: echo dj
+        run: echo ${{ github.event.issue.title}}
