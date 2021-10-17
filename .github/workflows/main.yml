@@ -1,12 +1,11 @@
 name: create-feat-branch
 
 on:
-  label:
-    types: [created, deleted, edited]
-      
+  issues:
+    types: [opened]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: run
-        run: echo hello
+      - name: df
+        run: echo dj
