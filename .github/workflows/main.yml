@@ -7,5 +7,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: khfd
-          run: |
-            echo "${{ Object.keys(github.event.action) }}"
+          run: echo "${{ Object.keys(github.event.action) }}"
