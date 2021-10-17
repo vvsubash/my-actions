@@ -7,4 +7,4 @@ jobs:
         runs-on: ununtu-latest
         steps:
         - run: |
-            echo "${{ github.events.label }}"
+            echo "${{ hello }}"
