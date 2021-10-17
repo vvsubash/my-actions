@@ -2,7 +2,7 @@ name: create-feat-branch
 
 on:
   label:
-    types: [created]
+    types: [created, deleted, edited]
 jobs:
   build:
     runs-on: ubuntu-latest
