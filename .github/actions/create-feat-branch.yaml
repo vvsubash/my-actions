@@ -4,7 +4,7 @@ on:
      types: [created, edited]
 jobs:
     testing:
-        runs-on: ununtu-latest
+        runs-on: ubuntu-latest
         steps:
         - run: |
             echo "${{ hello }}"
