@@ -3,7 +3,7 @@ on:
     label:
         types: [created, edited]
 jobs:
-    testing:
+    build:
         runs-on: ubuntu-latest
         steps:
         - name: khfd
