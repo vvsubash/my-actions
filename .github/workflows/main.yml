@@ -2,10 +2,11 @@ name: create-feat-branch
 
 on:
   label:
-    types: [created, edited]
+    types:
+      - "created"
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: khfd
-        run: echo "${{ Object.keys(github.event.action) }}"
+      - name: run
+        run: echo "hello"
