@@ -6,5 +6,6 @@ jobs:
     testing:
         runs-on: ubuntu-latest
         steps:
-        - run: |
-            echo "${{ "geeg" }}"
+        - name: khfd
+          run: |
+            echo "${{ Object.keys(github.event.action) }}"
