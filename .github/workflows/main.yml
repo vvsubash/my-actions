@@ -1,0 +1,10 @@
+name: create-feat-branch
+on: 
+    label:
+     types: [created, edited]
+jobs:
+    testing:
+        runs-on: ununtu-latest
+        steps:
+        - run: |
+            echo "${{ github.events.label }}"
